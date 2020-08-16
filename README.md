@@ -16,18 +16,18 @@ Sample application for trading.
 
 Sample CSV Load data (used for testing).
 
-TradingAccount	UserId	InstrumentCode	Side	Price	Quantity
-c123	        Rav123	C123		            0	    10000
-d123	        Raj123	D123		            2000	100000
-f123	        Rag123	F123	                123		100000
-e123	        Ram123	E123		            10	    1
-g123	        Ran123	G123	         abc	2000	100000
-h123	        Rah123	H123		            10	    100000
-e123	        Raj123	E123		            10	    100000
+TradingAccount,UserId,InstrumentCode,Side,Price,Quantity
+c123,Rav123,C123,,1000,10000
+d123,Raj123,D123,,2000,100000
+e123,Ram123,E123,,0,1
+f123,Rag123,F123,123,,100000
+g123,Ran123,G123,abc,2000,100000
+h123,Rah123,H123,,-23,100000
+e123,Raj123,E123,,0,100000
 
 
 OrderStatus Flow
-   Status                 =     New             ->  Submitted           ->   Approved           ->    Rejected
+ Status                 =     New             ->  Submitted           ->   Approved           ->    Rejected
 1. Validation Failed      =     Csv upload order.
 2. New Order              =     Csv upload order.
 3. Waiting for Exchange   =     Csv upload order-> Submitted To Exchange.
