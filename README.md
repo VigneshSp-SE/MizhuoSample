@@ -27,9 +27,9 @@ e123	        Raj123	E123		            10	    100000
 
 
 OrderStatus Flow
-Status                      New             ->  Submitted           ->   Approved           ->    Rejected
-Validation Failed           Csv upload order.
-New Order                   Csv upload order.
-Waiting for Exchange        Csv upload order-> Submitted To Exchange.
-Approved by Exchange        Csv upload order-> Submitted To Exchange-> Approved by Exchange.
-Rejected by Exchange        Csv upload order-> Submitted To Exchange--------------------------> Rejected By Exchange.
+   Status                      New             ->  Submitted           ->   Approved           ->    Rejected
+1. Validation Failed           Csv upload order.
+2. New Order                   Csv upload order.
+3. Waiting for Exchange        Csv upload order-> Submitted To Exchange.
+4. Approved by Exchange        Csv upload order-> Submitted To Exchange-> Approved by Exchange.
+5. Rejected by Exchange        Csv upload order-> Submitted To Exchange--------------------------> Rejected By Exchange.
