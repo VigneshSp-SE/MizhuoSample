@@ -1,6 +1,5 @@
 # MizhuoSample
-Mizhuo Sample
-Sample application for trading.
+Mizhuo Sample application for trading.
 1. Load the csv file with correct template (Click the Export Template button, save the valid template and use the template to load orders).
 2. Click Submit button to send to Exchange.
     The Price (greater than zero), Quantity (greater than zero) and Lot size (maximum of 100,000 for each instrument) is validated.
